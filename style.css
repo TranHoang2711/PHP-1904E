@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+.wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 400px;
+    border: 1px solid black;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: white;
+}
+.left .goc1 img{
+    width: 130px;
+    height: 130px;
+
+}
+h2,h4{
+    margin: 0;
+    color:white;
+}
+.goc2{
+    text-align: left;
+}
+.goc2 ul {
+    list-style-type: none;
+    margin-top:140px ;
+}
+.goc2 ul li {
+    color:white;
+}
+.goc2 i{
+    margin: 5px;
+    color: white;
+    font-size: 10px;
+}
+.goc3{
+
+}
